@@ -1,0 +1,30 @@
+body {
+    background-image: url("../pics/daniel-roberts-db6lQP8EBfM-unsplash.jpg");
+}
+
+.size {
+    height: 500px;
+    padding-bottom: 400px;
+}
+
+.overlay {
+    color: #fff;
+    position: absolute;
+    z-index: 12;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 130%;
+    font-weight: 100;
+    stroke: black;
+    stroke-width: 5px;
+}
+
+.dev1 {
+    padding: 10px;
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 120%;
+}
