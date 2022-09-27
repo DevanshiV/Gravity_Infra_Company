@@ -1,4 +1,4 @@
-$.getJSON("https://api.openweathermap.org/data/2.5/weather?q=London&units=metric&appid=01e22c981be2bfcae80a95876eee8820", function(data) {
+$.getJSON("https://api.openweathermap.org/data/2.5/weather?q=Dehradun&units=metric&appid=01e22c981be2bfcae80a95876eee8820", function(data) {
     console.log(data);
     var temp = data.main.temp;
     $(".temp").append(temp);
